@@ -1,9 +1,5 @@
-# 04_03: Mapa de Navegación del Wizard - ABL Suit Favicon
+# MAPA DE RUTAS, LAYOUT Y NAVEGACIÓN
 
-```
-[ProcessingEnginePage (Índice 0)] --(Iniciar Procesamiento)--> [ProcessingPage (Índice 1)]
-                                                                       |
-                                                                  (Completado)
-                                                                       v
-[ProcessingEnginePage (Índice 0)] <-- (Procesar Otra Imagen) -- [FinishedPage (Índice 2)]
-```
+## 1. ESTRUCTURA DE NAVEGACIÓN
+- **Layout Maestro:** Contenedor principal con cabecera/barra de navegación, área de contenido central y pie de página.
+- **Enrutado:** Manejo declarativo de vistas y componentes de pantalla.

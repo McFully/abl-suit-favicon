@@ -1,3 +1,4 @@
-# 08_06: Paso 6 - Main Entry Point - ABL Suit Favicon
+# PASO 06: ENSAMBLAJE DE PANTALLAS Y RUTAS
 
-Crear `main.py` inicializando `QApplication` y mostrando `SuitWizard`.
+## 1. MONTAJE DE VISTAS
+Componer las vistas completas uniendo componentes atómicos y lógica de estado.

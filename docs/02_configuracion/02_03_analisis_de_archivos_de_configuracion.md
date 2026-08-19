@@ -1,12 +1,7 @@
-# 02_03: Análisis de Archivos de Configuración - ABL Suit Favicon
+# ANÁLISIS DE ARCHIVOS DE CONFIGURACIÓN
 
-## 📄 Archivo `installer/setup.iss` (Inno Setup Compiler)
-Define las reglas de empaquetado del instalador Windows ejecutable:
-
-- **AppId**: `{#SetupSetting("AppName")}`
-- **AppName**: `Suit Favicon`
-- **AppVersion**: `1.0.0`
-- **AppPublisher**: `Antigravity Soft`
-- **DefaultDirName**: `{autopf}\Suit Favicon`
-- **WizardImageFile**: `wizard_sidebar.bmp` (164x314)
-- **WizardSmallImageFile**: `wizard_header.bmp` (55x55)
+## 1. CONFIGURACIÓN DEL PROYECTO
+Auditoría de parámetros de compilación, empaquetado y transpiler:
+- **Root:** `E:\Proyectos Antigravity\ABL Software\ABL Suit Favicon`
+- **Package Manager:** NPM / Estándar
+- **Módulos y Bundling:** Configurado para resolución de rutas relativas y assets limpios.

@@ -1,4 +1,4 @@
-# 08_02: Paso 2 - Servicios Base - ABL Suit Favicon
+# PASO 02: CONSTRUCCIÓN DE TIPOS Y MODELOS
 
-1. Implementar `app/services/logger_service.py`.
-2. Implementar `app/services/image_service.py` con métodos de recorte y conversión ICO.
+## 1. IMPLEMENTACIÓN DE CONTRATOS
+Definir todas las interfaces y contratos de dominio descritos en `/docs/05_datos_y_apis/`.

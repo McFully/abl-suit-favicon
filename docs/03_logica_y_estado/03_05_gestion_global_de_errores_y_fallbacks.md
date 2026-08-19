@@ -1,5 +1,5 @@
-# 03_05: Gestión de Errores y Fallbacks - ABL Suit Favicon
+# GESTIÓN GLOBAL DE ERRORES Y FALLBACKS
 
-- Captura de exepciones generales en el bloque `try...except` de `GenerationWorker.run()`.
-- Registro detallado en `LoggerService.log_error()` con stack trace.
-- Notificación al usuario mediante `QMessageBox.critical()` y retorno automático al estado 0 (`ProcessingEnginePage`).
+## 1. ESTRATEGIA DEFENSIVA
+- **Control de Excepciones:** Bloques try-catch en capas de comunicación y parseo de datos.
+- **Vistas de Fallback:** Interfaces de recuperación para estados vacíos o fallos de red.

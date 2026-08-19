@@ -1,13 +1,6 @@
-# 02_04: Scripts y Automatizaciones CLI - ABL Suit Favicon
+# SCRIPTS NPM Y AUTOMATIZACIONES CLI
 
-## 📜 Script `build_all.ps1` (PowerShell)
-Automatiza la compilación del binario `.exe` utilizando PyInstaller:
-
-```powershell
-pyinstaller --noconfirm --onedir --windowed `
-    --add-data "logo.png;." `
-    --add-data "icono.ico;." `
-    --icon "icono.ico" `
-    --name "SuitFavicon" `
-    main.py
-```
+## 1. COMANDOS REGISTRADOS
+| Comando | Script Ejecutado |
+| :--- | :--- |
+| `npm start` / `abrir index.html` | Ejecución nativa del proyecto |

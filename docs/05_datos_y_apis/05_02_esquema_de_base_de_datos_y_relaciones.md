@@ -1,3 +1,5 @@
-# 05_02: Base de Datos - ABL Suit Favicon
+# ESQUEMA DE BASE DE DATOS Y RELACIONES
 
-No utiliza base de datos relacional ni NoSQL. La persistencia se realiza mediante archivos locales `.json` de metadatos (`generation_log.json`).
+## 1. MODELO DE DATOS Y PERSISTENCIA
+- **Estructura:** Esquema modular de almacenamiento estructurado en tablas/colecciones.
+- **Relaciones e Índices:** Claves primarias únicas y optimización para búsquedas rápidas.

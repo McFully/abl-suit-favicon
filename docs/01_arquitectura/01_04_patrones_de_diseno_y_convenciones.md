@@ -1,16 +1,11 @@
-# 01_04: Patrones de Diseño y Convenciones - ABL Suit Favicon
+# PATRONES DE DISEÑO Y CONVENCIONES
 
-## 🎨 Patrones Arquitectónicos Aplicados
+## 1. PRINCIPIOS DE ARQUITECTURA
+- **Modularidad Atómica:** Separación estricta entre presentación, lógica de dominio y capa de acceso a datos.
+- **SOLID & Clean Architecture:** Componentes puros desacoplados de efectos secundarios globales.
+- **Inmutabilidad del Estado:** Mutaciones predecibles a través de despachos o setters definidos.
 
-1. **Model-View-Worker (MVW / Async Processing)**:
-   - La UI (`SuitWizard`, `QStackedWidget`) nunca ejecuta tareas de I/O o procesamiento gráfico en el hilo principal de eventos (`GUI Thread`).
-   - `GenerationWorker` encapsula el trabajo en un `QThread` y transmite métricas mediante `PySide6.QtCore.Signal`.
-
-2. **Singleton Pattern**:
-   - `LoggerService` implementa `__new__` para garantizar una única instancia global del logger escribiendo en `logs/audit.log`.
-
-3. **Lazy Session Initialization**:
-   - `ImageService._get_session()` carga el modelo pesadísimo de IA (`isnet-general-use`) bajo demanda solo cuando el usuario arranca el proceso, evitando latencias al abrir la app.
-
-4. **Service Object Pattern**:
-   - Métodos estáticos puros en `ImageService` y `ProjectService` encargados de responsabilidades únicas (SRP).
+## 2. CONVENCIONES DE CÓDIGO
+- **Nombres de Componentes:** PascalCase (`MiComponente.tsx` o `MiComponente.js`).
+- **Nombres de Utilidades y Hooks:** camelCase (`useMiHook.ts`, `calcularTotales.js`).
+- **Tipado Estricto:** Prohibición expresa de tipos laxos (`any`), garantizando cobertura de contratos.

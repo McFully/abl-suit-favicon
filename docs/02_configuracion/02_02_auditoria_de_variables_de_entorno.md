@@ -1,19 +1,7 @@
-# 02_02: Auditoría de Variables de Entorno y Configuración - ABL Suit Favicon
+# AUDITORÍA DE VARIABLES DE ENTORNO
 
-## ⚙️ Archivo `config.json`
-El archivo `config.json` almacena las rutas base del sistema y configuraciones opcionales:
-
-```json
-{
-    "base_output_dir": "output",
-    "grok_api_key": "",
-    "default_installer_paths": {
-        "installers_inno": "installer/inno",
-        "installers_nsis": "installer/nsis",
-        "installers_wix": "installer/wix"
-    }
-}
-```
-
-- `base_output_dir`: Carpeta raíz predeterminada para guardar los paquetes de assets generados.
-- `grok_api_key`: Clave API para invocar Grok Imagine si se requiere generación sintética por prompt.
+## 1. MATRIZ DE VARIABLES
+| Variable | Ámbito | Descripción | Valor Mock / Default |
+| :--- | :--- | :--- | :--- |
+| `NODE_ENV` | Global | Entorno de ejecución (`development` / `production`) | `development` |
+| `VITE_APP_NAME` / `PUBLIC_URL` | Frontend | Nombre o ruta base de la aplicación | `ABL Suit Favicon` |

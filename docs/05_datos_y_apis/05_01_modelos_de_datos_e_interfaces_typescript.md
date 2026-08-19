@@ -1,9 +1,16 @@
-# 05_01: Estructuras de Datos - ABL Suit Favicon
+# MODELOS DE DATOS E INTERFACES TYPESCRIPT
 
-## 📋 Diccionario de Configuración del Worker
-```python
-{
-    "source_image": str,  # Ruta absoluta a la imagen de entrada
-    "output_dir": str     # Ruta absoluta a la carpeta de salida
+## 1. CONTRATOS DE DATOS DEL DOMINIO
+```typescript
+export interface EntidadBase {
+  id: string | number;
+  creadoEn?: string | Date;
+  actualizadoEn?: string | Date;
+}
+
+export interface ConfiguracionProyecto {
+  nombre: string;
+  version: string;
+  activo: boolean;
 }
 ```

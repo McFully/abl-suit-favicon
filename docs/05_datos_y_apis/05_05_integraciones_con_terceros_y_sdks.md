@@ -1,4 +1,4 @@
-# 05_05: Integraciones con Terceros - ABL Suit Favicon
+# INTEGRACIONES CON TERCEROS Y SDKS
 
-- **RemBG (IS-Net)**: Librería open-source para segmentación profunda de imágenes de fondo.
-- **OpenAI Python SDK**: Utilizado con `base_url="https://api.x.ai/v1"` para comunicarse con los modelos de Grok.
+## 1. SERVICIOS CONECTADOS
+- Integraciones nativas del navegador, APIs REST externas y SDKs de despliegue.

@@ -1,47 +1,121 @@
-# 01_05: Mapa Forense de Directorios y Archivos - ABL Suit Favicon
+# MAPA FORENSE DE DIRECTORIOS Y ARCHIVOS
 
-```
-ABL Suit Favicon/
-├── main.py                          # Punto de entrada de la aplicación (QApplication)
-├── config.json                      # Configuración global e Inno Setup paths
-├── requirements.txt                 # Dependencias Python
-├── build_all.ps1                    # Script PowerShell de compilación con PyInstaller
-├── Lanzar_App.bat                   # Ejecutable de inicio rápido en Windows
-├── logo.png                         # Ícono oficial de la aplicación
-├── icono.ico                        # Ícono ICO ejecutable
-├── wizard_header.png                # Asset de cabecera predeterminado
-├── wizard_sidebar.png               # Asset de barra lateral predeterminado
-├── DESIGN.md                        # Guía de diseño visual
-├── VERSION.md                       # Control de versión semántica (1.0.0)
-├── current_problems.md              # Registro de notas de desarrollo
-├── app/
-│   ├── __init__.py                  # Módulo paquete
-│   ├── services/
-│   │   ├── __init__.py
-│   │   ├── api_service.py           # Cliente API OpenAI/Grok
-│   │   ├── image_service.py         # Motor de edición de imágenes RemBG/PIL
-│   │   ├── logger_service.py        # Gestor de logs auditados
-│   │   └── project_service.py       # Scaffolding de carpetas de proyecto
-│   ├── ui/
-│   │   ├── __init__.py
-│   │   ├── wizard.py                # QMainWindow y gestor de pantallas
-│   │   ├── pages.py                 # Pantallas 0, 1 y 2 del asistente
-│   │   └── styles.py                # Hojas de estilo QSS
-│   ├── utils/
-│   │   └── __init__.py
-│   └── workers/
-│       ├── __init__.py
-│       └── gen_worker.py            # Hilo asíncrono QThread de procesamiento
-├── architecture/
-│   └── critical_files.md
-├── context/
-│   └── system_health.md
-├── installer/
-│   ├── setup.iss                    # Script Inno Setup Compiler
-│   └── LICENSE.txt                  # Licencia del instalador
-├── logs/
-│   └── audit.log                    # Archivo rotativo de logs de auditoría
-└── rules/
-    ├── guardian_mode.md
-    └── SAFE_DEV_WORKFLOW.md
-```
+## 1. INVENTARIO COMPLETO DE ARCHIVOS
+Total de archivos auditados: **116**
+
+- `.gitignore`
+- `build_all.ps1`
+- `config.json`
+- `current_problems.md`
+- `DESIGN.md`
+- `favicon.ico`
+- `icono.ico`
+- `Lanzar_App.bat`
+- `LICENSE.txt`
+- `logo.png`
+- `main.py`
+- `README.md`
+- `requirements.txt`
+- `VERSION.md`
+- `wizard_header.png`
+- `wizard_sidebar.png`
+- `app/__init__.py`
+- `app/services/api_service.py`
+- `app/services/image_service.py`
+- `app/services/logger_service.py`
+- `app/services/project_service.py`
+- `app/services/__init__.py`
+- `app/services/__pycache__/api_service.cpython-313.pyc`
+- `app/services/__pycache__/api_service.cpython-314.pyc`
+- `app/services/__pycache__/image_service.cpython-313.pyc`
+- `app/services/__pycache__/logger_service.cpython-313.pyc`
+- `app/services/__pycache__/project_service.cpython-313.pyc`
+- `app/services/__pycache__/__init__.cpython-313.pyc`
+- `app/services/__pycache__/__init__.cpython-314.pyc`
+- `app/ui/pages.py`
+- `app/ui/styles.py`
+- `app/ui/wizard.py`
+- `app/ui/__init__.py`
+- `app/ui/__pycache__/pages.cpython-313.pyc`
+- `app/ui/__pycache__/pages.cpython-314.pyc`
+- `app/ui/__pycache__/styles.cpython-313.pyc`
+- `app/ui/__pycache__/styles.cpython-314.pyc`
+- `app/ui/__pycache__/wizard.cpython-313.pyc`
+- `app/ui/__pycache__/wizard.cpython-314.pyc`
+- `app/ui/__pycache__/__init__.cpython-313.pyc`
+- `app/ui/__pycache__/__init__.cpython-314.pyc`
+- `app/utils/__init__.py`
+- `app/workers/gen_worker.py`
+- `app/workers/__init__.py`
+- `app/workers/__pycache__/gen_worker.cpython-313.pyc`
+- `app/workers/__pycache__/gen_worker.cpython-314.pyc`
+- `app/workers/__pycache__/__init__.cpython-313.pyc`
+- `app/workers/__pycache__/__init__.cpython-314.pyc`
+- `app/__pycache__/__init__.cpython-313.pyc`
+- `app/__pycache__/__init__.cpython-314.pyc`
+- `architecture/critical_files.md`
+- `context/system_health.md`
+- `docs/01_resumen_ejecutivo_y_producto.md`
+- `docs/02_arquitectura_del_sistema.md`
+- `docs/03_stack_tecnologico_y_dependencias.md`
+- `docs/05_mapa_forense_de_directorios.md`
+- `docs/06_instalacion_y_entorno.md`
+- `docs/07_variables_de_entorno.md`
+- `docs/08_archivos_de_configuracion.md`
+- `docs/11_logica_de_negocio_principal.md`
+- `docs/13_flujo_de_datos_y_eventos.md`
+- `docs/16_catalogo_de_funcionalidades.md`
+- `docs/17_sistema_de_diseno_y_estilos.md`
+- `docs/26_estrategia_de_testing.md`
+- `docs/27_optimizacion_y_rendimiento.md`
+- `docs/28_auditoria_de_seguridad.md`
+- `docs/29_despliegue_y_ci_cd.md`
+- `docs/30_monitoreo_y_registros.md`
+- `docs/31_glosario_tecnico_y_de_negocio.md`
+- `docs/32_deuda_tecnica_y_problemas_conocidos.md`
+- `docs/Prompt obtenido en NotebookLM para Antigravity.md`
+- `docs/prompt para documentacion del proyecto.md`
+- `docs/01_arquitectura/01_01_resumen_ejecutivo_y_modelo_de_negocio.md`
+- `docs/01_arquitectura/01_02_arquitectura_del_sistema_y_diagrama_c4.md`
+- `docs/01_arquitectura/01_03_stack_tecnologico_y_arbol_de_dependencias.md`
+- `docs/01_arquitectura/01_04_patrones_de_diseno_y_convenciones.md`
+- `docs/01_arquitectura/01_05_mapa_forense_de_directorios_y_archivos.md`
+- `docs/02_configuracion/02_01_guia_de_instalacion_y_arranque_local.md`
+- `docs/02_configuracion/02_02_auditoria_de_variables_de_entorno.md`
+- `docs/02_configuracion/02_03_analisis_de_archivos_de_configuracion.md`
+- `docs/02_configuracion/02_04_scripts_npm_y_automatizaciones_cli.md`
+- `docs/02_configuracion/02_05_infraestructura_ci_cd_y_despliegue.md`
+- `docs/03_logica_y_estado/03_01_bucle_principal_y_core_loop.md`
+- `docs/03_logica_y_estado/03_02_arquitectura_de_estado_global_y_local.md`
+- `docs/03_logica_y_estado/03_03_flujo_de_datos_bus_de_eventos_y_reactividad.md`
+- `docs/03_logica_y_estado/03_04_matematicas_formulas_y_algoritmos_clave.md`
+- `docs/03_logica_y_estado/03_05_gestion_global_de_errores_y_fallbacks.md`
+- `docs/04_interfaz_ui_ux/04_01_sistema_de_diseno_tokens_y_estilos.md`
+- `docs/04_interfaz_ui_ux/04_02_experiencia_de_usuario_accesibilidad_y_ux.md`
+- `docs/04_interfaz_ui_ux/04_03_mapa_de_rutas_layout_y_navegacion.md`
+- `docs/04_interfaz_ui_ux/pantallas/VISTA_01_ProcessingEnginePage.md`
+- `docs/04_interfaz_ui_ux/pantallas/VISTA_02_ProcessingPage.md`
+- `docs/04_interfaz_ui_ux/pantallas/VISTA_03_FinishedPage.md`
+- `docs/05_datos_y_apis/05_01_modelos_de_datos_e_interfaces_typescript.md`
+- `docs/05_datos_y_apis/05_02_esquema_de_base_de_datos_y_relaciones.md`
+- `docs/05_datos_y_apis/05_03_especificacion_de_apis_y_endpoints.md`
+- `docs/05_datos_y_apis/05_04_persistencias_locales_cache_y_storage.md`
+- `docs/05_datos_y_apis/05_05_integraciones_con_terceros_y_sdks.md`
+- `docs/06_calidad_y_seguridad/06_01_auditoria_de_seguridad_owasp_y_permisos.md`
+- `docs/06_calidad_y_seguridad/06_02_estrategia_de_testing_y_cobertura.md`
+- `docs/06_calidad_y_seguridad/06_03_optimizacion_rendimiento_y_core_web_vitals.md`
+- `docs/06_calidad_y_seguridad/06_04_monitoreo_telemetria_y_logs.md`
+- `docs/06_calidad_y_seguridad/06_05_deuda_tecnica_y_problemas_conocidos.md`
+- `docs/07_especiales/07_01_procesos_pyside6_y_threads.md`
+- `docs/08_guia_reconstruccion/08_01_paso_01_setup_inicial_y_herramientas.md`
+- `docs/08_guia_reconstruccion/08_02_paso_02_construccion_de_tipos_y_modelos.md`
+- `docs/08_guia_reconstruccion/08_03_paso_03_servicios_de_base_de_datos_y_apis.md`
+- `docs/08_guia_reconstruccion/08_04_paso_04_motores_de_logica_y_estado.md`
+- `docs/08_guia_reconstruccion/08_05_paso_05_sistema_de_diseno_y_ui_atomi.md`
+- `docs/08_guia_reconstruccion/08_06_paso_06_ensamblaje_de_pantallas_y_rutas.md`
+- `docs/08_guia_reconstruccion/08_07_paso_07_integracion_final_y_validacion.md`
+- `docs/08_guia_reconstruccion/08_08_glosario_maestro_y_matriz_de_referencias.md`
+- `installer/LICENSE.txt`
+- `installer/setup.iss`
+- `rules/guardian_mode.md`
+- `rules/SAFE_DEV_WORKFLOW.md`

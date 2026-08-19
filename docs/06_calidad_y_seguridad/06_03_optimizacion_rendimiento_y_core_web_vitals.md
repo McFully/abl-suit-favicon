@@ -1,4 +1,6 @@
-# 06_03: Optimización de Rendimiento - ABL Suit Favicon
+# OPTIMIZACIÓN DE RENDIMIENTO Y CORE WEB VITALS
 
-- Inferencia de modelo de IA ejecutada una sola vez por sesión (`ImageService._get_session()`).
-- Redimensionamiento de imágenes optimizado mediante el algoritmo `LANCZOS` en memoria.
+## 1. MÉTRICAS CLAVE
+- **LCP (Largest Contentful Paint):** Carga prioritaria de elementos críticos bajo 1.5s.
+- **CLS (Cumulative Layout Shift):** Dimensiones estables en contenedores multimedia (puntuación < 0.1).
+- **INP (Interaction to Next Paint):** Manejadores asíncronos desacoplados del hilo principal.

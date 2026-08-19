@@ -1,3 +1,5 @@
-# 06_05: Deuda Técnica y Problemas Conocidos - ABL Suit Favicon
+# DEUDA TÉCNICA Y PROBLEMAS CONOCIDOS
 
-- El primer procesamiento puede demorar unos segundos adicionales mientras se inicializa el modelo de `rembg`.
+## 1. REGISTRO DE AUDITORÍA
+- Arquitectura limpia y documentada.
+- Sin bloqueos estructurales críticos detectados.

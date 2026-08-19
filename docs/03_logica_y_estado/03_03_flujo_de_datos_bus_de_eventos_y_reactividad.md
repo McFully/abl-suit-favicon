@@ -1,6 +1,6 @@
-# 03_03: Flujo de Datos y Reactividad mediante Signals - ABL Suit Favicon
+# FLUJO DE DATOS, BUS DE EVENTOS Y REACTIVIDAD
 
-## ⚡ PySide6 Signals en `GenerationWorker`
-- `progress = Signal(int, str)`: Emite el porcentaje (0-100) y la descripción del paso.
-- `finished = Signal(list)`: Emite la lista de nombres de archivos generados.
-- `error = Signal(str)`: Emite el mensaje de excepción en caso de fallo técnico.
+## 1. CICLO DE VIDA DE LA INFORMACIÓN
+1. El usuario interactúa con la interfaz emitiendo una acción.
+2. El despachador procesa la acción y actualiza el estado.
+3. Los componentes suscritos se re-renderizan sin generar bloqueos en el hilo principal.

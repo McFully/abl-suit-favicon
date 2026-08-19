@@ -1,5 +1,6 @@
-# 04_02: UX y Accesibilidad - ABL Suit Favicon
+# EXPERIENCIA DE USUARIO, ACCESIBILIDAD Y UX
 
-- Fuente predeterminada del sistema establecida en `Segoe UI 10pt` para evitar advertencias de punto de fuente en Windows.
-- Contraste alto con fondo oscuro `#121212` y texto blanco `#FFFFFF`.
-- Indicadores visuales claros en barra de progreso con porcentaje textual.
+## 1. REQUISITOS DE ACCESIBILIDAD (WCAG)
+- Áreas táctiles mínimas de 44x44px en móviles y controles táctiles.
+- Atributos `aria-label`, roles semánticos y soporte completo de navegación por teclado.
+- Feedback visual inmediato en hover, focus y active states.

@@ -1,5 +1,4 @@
-# 08_08: Glosario Maestro - ABL Suit Favicon
+# GLOSARIO MAESTRO Y MATRIZ DE REFERENCIAS
 
-- **rembg**: Librería de eliminación de fondo.
-- **ICO**: Formato de ícono multitamaño de Windows.
-- **QStackedWidget**: Contenedor de páginas apiladas de Qt.
+## 1. DICCIONARIO TÉCNICO
+Índice cruzado de módulos, tipos y dependencias clave del proyecto **ABL Suit Favicon**.

@@ -1,3 +1,5 @@
-# 06_02: Estrategia de Testing - ABL Suit Favicon
+# ESTRATEGIA DE TESTING Y COBERTURA
 
-Pruebas manuales de procesamiento con formatos de entrada variados: PNG con alpha, JPG con fondo sólido, WEBP y BMP.
+## 1. SUITE DE PRUEBAS
+- **Pruebas Unitarias:** Validación de funciones de utilidad y transformaciones de datos.
+- **Pruebas E2E / Integración:** Validación de interacción de usuario en navegadores modernos.

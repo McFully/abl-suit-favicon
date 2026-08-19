@@ -1,3 +1,4 @@
-# 08_04: Paso 4 - Worker Asíncrono - ABL Suit Favicon
+# PASO 04: MOTORES DE LÓGICA Y ESTADO
 
-Implementar `app/workers/gen_worker.py` coordinando la señalización de progreso y la transformación paso a paso.
+## 1. IMPLEMENTACIÓN DEL ESTADO
+Ensamblar los stores reactivos y la lógica de negocio central.

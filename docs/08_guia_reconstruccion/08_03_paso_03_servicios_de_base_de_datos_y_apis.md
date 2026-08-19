@@ -1,3 +1,4 @@
-# 08_03: Paso 3 - Conexión API Grok - ABL Suit Favicon
+# PASO 03: SERVICIOS DE BASE DE DATOS Y APIS
 
-Implementar `app/services/api_service.py` para soporte opcional de IA generativa.
+## 1. CAPA DE SERVICIOS
+Configurar clientes de comunicación, conectores de persistencia y controladores.
